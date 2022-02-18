@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -13,7 +17,7 @@
 }
 */
 .mainNav {
-    background-color: rgb(37, 37, 39);
+    background-color: rgb(0, 88, 139);
 }
 
 .mainNav ul{
@@ -26,7 +30,7 @@
  }
 
  .mainNav ul li a {
-     color: #fff;
+     color: rgb(0, 0, 0);
      padding: 20px;
      text-decoration: none;
      display: inline-block;
