@@ -1,0 +1,12 @@
+.nav-link {
+    padding: 20px 30px;
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    border-top: 2px red solid;
+}
+
+.carousel-caption h5{
+
+}
