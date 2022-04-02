@@ -1,65 +1,83 @@
 /*
-regras gerais:
+Regras Gerais
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap&#39;);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap&#39;);
 
-/*
-logo nav
-*/
-.logo {
-    width: 150px;
+* {
+    font-family: 'Roboto',sans-serif;
 }
+
+/*LOGO NAV */
+.logo {
+    width: 160px;
+}
+
+/*REGRAS NAV*/
 #nav {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,193,19,1) 100%);
     box-shadow: 2px 2px 2px 2px #cdcdcd;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+#navbarNav ul li a {
+    color: #fff;
+    font-weight: bold;
 }
 
-#navbarNav ul li a {
-    color: whitesmoke;
-    font-weight: bold;
-    font-family: "Roboto";
+#navbarNav ul li a:hover {
+    color: #000;
+    background: #fff;
 }
-#navbarNav ul li a:hover{
-    color: whitesmoke;
-    background-color:black;
-}
+
+/* IMAGEM CARROSEL */
 #imgBanner {
     height: 450px;
 }
+
+
+/* SEÇÃO QUEM SOMOS */
 #mainQuemSomos {
-    text-align: justify;
     margin-top: 100px;
-    margin-right: 90px;
-    font-size: 18px;
-    font-family: "League Spartan";
-    font-weight: bolder;
-    line-height: 40px;
+    font-size:18px;
+   
+}
+
+.textoSomos{
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-title {
-    color:black;
+    color:#000;
     text-align: center;
     font-size: 40px;
     margin-top: 40px;
     margin-bottom:40px;
-    font-family: "League Spartan";
-    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
 
-}
-.destaque-texto{
-    color:#3498db;
-    font-size:20px;
+.destaque-texto {
+    color: #3498db;
     font-weight: bold;
+    font-size: 20px;
 }
+
 .destaque {
     font-size: 16px;
-    color:black;
-    padding:15px;
-    padding-top:10px;
+    color: #000;
+    padding: 15px;
+    padding-top: 10px;
 }
+
 .icones {
     color:#3498db;
-    font-size:40px;
-    padding-bottom:10px;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.logo_footer{
+    height: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
