@@ -1,47 +1,65 @@
 /*
-Regras gerais
+regras gerais:
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
-*{
-    font-family: 'roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Roboto:wght@500&display=swap');
 
-/* LOGO NAV */
+/*
+logo nav
+*/
 .logo {
-    width: 180px;
+    width: 150px;
 }
-
-/* Regras Nav */
 #nav {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,193,19,1) 100%);
     box-shadow: 2px 2px 2px 2px #cdcdcd;
 }
 
 #navbarNav ul li a {
-    color: #fff;
+    color: whitesmoke;
     font-weight: bold;
+    font-family: "Roboto";
 }
-
-#navbarNav ul li a:hover {
-    color: black;    
-    background-color: rgb(47, 104, 153);
+#navbarNav ul li a:hover{
+    color: whitesmoke;
+    background-color:black;
 }
-
-/* IMAGEM CARROSEL*/
 #imgBanner {
     height: 450px;
 }
-
-/* Seção quem somos*/
 #mainQuemSomos {
     text-align: justify;
     margin-top: 100px;
-    font-size: 16px;
-}
-
-#quemsomos {
-    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 90px;
+    font-size: 18px;
+    font-family: "League Spartan";
     font-weight: bolder;
+    line-height: 40px;
 }
 
+.main-title {
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    font-family: "League Spartan";
+    font-weight: bolder;
+
+}
+.destaque-texto{
+    color:#3498db;
+    font-size:20px;
+    font-weight: bold;
+}
+.destaque {
+    font-size: 16px;
+    color:black;
+    padding:15px;
+    padding-top:10px;
+}
+.icones {
+    color:#3498db;
+    font-size:40px;
+    padding-bottom:10px;
+}
